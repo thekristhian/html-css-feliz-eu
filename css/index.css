@@ -34,7 +34,7 @@ li::before {
     vertical-align: middle;
 }
 
-#button{
+.button{
     display: inline-block;
     color: white;
     font-size: 20px;
@@ -51,24 +51,13 @@ li::before {
     transition: transform 200ms linear;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
-}
-
-/*CSS DO MAIN*/
-
-.teste {
-    background-image: url("../assets/img/fundo.png");
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    border-bottom: 10px solid #000000;
-
-    display: flex;
 }
 
 h1 {
     text-shadow: 4px 4px 0px #000000;
+    font-family: 'Press Start 2P';
     font-size: 40px;
     font-weight: 400px;
     line-height: 40px;
@@ -86,16 +75,3 @@ h2{
     text-shadow: 4px 4px 0px #000000;
 }
 
-.quadrado {
-    width: 627px;
-    height: 184px;
-    background-color: #3A4042;
-    margin-top: 106px;
-    margin-left: 91px;
-    font-family: 'Press Start 2P';
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 10px 10px 0 rgba(0, 0, 0)
-}
