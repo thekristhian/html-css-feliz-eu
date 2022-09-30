@@ -1,9 +1,22 @@
 header{
-    background-color: #3A4042;
+    background-color: rgba(124, 94, 153, 1);
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    border-bottom: 10px solid #000
+    border-bottom: 10px solid #000;
+    transition: background-color linear 100ms;
+}
+
+#logo{
+    transition: all ease-in-out 1s;
+}
+
+#logo:hover {
+    transform: rotateX(180deg);
+}
+
+header:hover {
+    background-color: black;
 }
 
 ul{
@@ -27,7 +40,7 @@ li{
 li::before {
     display: inline-block;
     content: " ";
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(242, 90, 112, 1);
     width: 10px;
     height: 10px;
     margin: 10px;
@@ -35,12 +48,13 @@ li::before {
 }
 
 .button{
+    border-radius: 10px;
     display: inline-block;
     color: white;
     font-size: 20px;
     font-family: 'Fira Code';
     font-weight: 500;
-    background-color: rgba(73, 73, 73, 1);
+    background-color: rgba(242, 90, 112, 1);
     box-shadow: 5px 5px 0px #000000;
     padding: 0;
     line-height: 60px;
@@ -61,7 +75,7 @@ h1 {
     font-size: 40px;
     font-weight: 400px;
     line-height: 40px;
-    color: white;
+    color: rgba(242, 90, 112, 1);
     margin-bottom: 28px;
 }
 

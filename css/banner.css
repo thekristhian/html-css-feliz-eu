@@ -16,6 +16,7 @@
 }
 
 #bigbox {
+    border-radius: 10px;
     width: 627px;
     height: 142px;
     background-color: rgba(58, 64, 66, 1);
